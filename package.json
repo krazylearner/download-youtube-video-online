@@ -1,0 +1,25 @@
+{
+  "name": "download-youtube-video-online",
+  "version": "1.0.0",
+  "description": "download youtube video online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krazylearner/download-youtube-video-online.git"
+  },
+  "keywords": [
+    "download",
+    "youtube",
+    "video",
+    "online"
+  ],
+  "author": "ankur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krazylearner/download-youtube-video-online/issues"
+  },
+  "homepage": "https://github.com/krazylearner/download-youtube-video-online#readme"
+}
