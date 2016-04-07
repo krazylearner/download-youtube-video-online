@@ -2,9 +2,9 @@
   "name": "download-youtube-video-online",
   "version": "1.0.0",
   "description": "download youtube video online",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+	"test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/krazylearner/download-youtube-video-online/issues"
   },
-  "homepage": "https://github.com/krazylearner/download-youtube-video-online#readme"
+  "homepage": "https://github.com/krazylearner/download-youtube-video-online#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.1",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0"
+  }
 }
