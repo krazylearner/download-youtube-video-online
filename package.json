@@ -4,7 +4,7 @@
   "description": "download youtube video online",
   "scripts": {
     "start": "node ./bin/www",
-	"test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/krazylearner/download-youtube-video-online#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "cookie-parser": "^1.4.1",
     "debug": "^2.2.0",
     "express": "^4.13.4",
